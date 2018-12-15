@@ -9,8 +9,11 @@ public class DemoGuru99Project {
 		
 		guru.invokeBrowser();
 		guru.loginGuru("mngr166113", "epyrepE");
-		guru.newCustomer();
+		guru.addCustomer();		
+		String customerId = guru.getCustomerID();
+		guru.addAccount(customerId);
 		guru.closeBrowser();
+		
 
 	}
 

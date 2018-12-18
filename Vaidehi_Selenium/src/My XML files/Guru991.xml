@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Guru99 Test suite">
+  <test name="Basic scenario Testing" parallel="tests"> 
+<!--     <classes> -->
+<!--       <class name="day8.Guru99Project"/> -->
+<!--     </classes> -->
+	<packages>
+		<package name="day8"></package>	
+	</packages>
+  </test> 
+</suite> 

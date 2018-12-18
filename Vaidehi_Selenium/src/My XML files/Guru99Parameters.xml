@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Guru99 Login Test suite">
+  <test name="Passing Parameters Testing">  	
+  	<parameter name="uid" value="mngr166113"></parameter>
+  	<parameter name="pwd" value="epyrepE"></parameter>
+    <classes>
+      <class name="day8.Guru99Project"/>
+    </classes>
+  </test> 
+</suite> 

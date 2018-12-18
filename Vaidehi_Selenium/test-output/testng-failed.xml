@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MultiBrowserSuite]">
+  <test thread-count="5" name="ParallelTestingie(failed)" parallel="tests">
+    <parameter name="uid" value="mngr166113"/>
+    <parameter name="drive" value="ie"/>
+    <parameter name="pwd" value="epyrepE"/>
+    <classes>
+      <class name="day8.Guru99Project">
+        <methods>
+          <include name="invokeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="verifyLoginToGuru99Application" invocation-numbers="0"/>
+          <include name="verifyTitleOfThePage"/>
+        </methods>
+      </class> <!-- day8.Guru99Project -->
+    </classes>
+  </test> <!-- ParallelTestingie(failed) -->
+</suite> <!-- Failed suite [MultiBrowserSuite] -->

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MultiBrowserSuite">
+  <test name="ParallelTestingie" parallel="tests">
+  	<parameter name="drive" value="ie"></parameter>
+  	<parameter name="uid" value="mngr166113"></parameter>
+  	<parameter name="pwd" value="epyrepE"></parameter>
+    <classes>
+      <class name="day8.Guru99Project"/>
+    </classes>
+  </test> 
+  
+   <test name="ParallelTestingch">
+  	<parameter name="drive" value="chrome"></parameter>
+  	<parameter name="uid" value="mngr166113"></parameter>
+  	<parameter name="pwd" value="epyrepE"></parameter>
+    <classes>
+      <class name="day8.Guru99Project"/>
+    </classes>
+  </test> 
+  
+   <test name="ParallelTestingff">
+  	<parameter name="drive" value="firefox"></parameter>
+  	<parameter name="uid" value="mngr166113"></parameter>
+  	<parameter name="pwd" value="epyrepE"></parameter>
+    <classes>
+      <class name="day8.Guru99Project"/>
+    </classes>
+  </test> 
+</suite> 

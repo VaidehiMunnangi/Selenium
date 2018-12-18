@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="First TestNG suite">
+  <test name="All test cases enabled" parallel="tests">
+<!--     <classes> -->
+<!--       <class name="day8.FirstTestNG"/> -->
+<!--     </classes> -->
+		<classes>
+			<class name="day8.FirstTestNG"></class>
+			<class name="day7.Guru99Project"></class>
+		</classes>
+
+  </test> 
+</suite>

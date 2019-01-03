@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="3" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="EdurekaSuite" duration-ms="20504" started-at="2019-01-03T06:00:12Z" finished-at="2019-01-03T06:00:32Z">
+    <groups>
+      <group name="validation">
+        <method signature="FifthCS.signUp(java.lang.String, java.lang.String)[pri:4000, instance:day6.FifthCS@4520ebad]" name="signUp" class="day6.FifthCS"/>
+      </group> <!-- validation -->
+    </groups>
+    <test name="ValidateSignUPTest" duration-ms="20504" started-at="2019-01-03T06:00:12Z" finished-at="2019-01-03T06:00:32Z">
+      <class name="day6.FifthCS">
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String)[pri:0, instance:day6.FifthCS@4520ebad]" name="invokeBrowser" is-config="true" duration-ms="17227" started-at="2019-01-03T06:00:12Z" finished-at="2019-01-03T06:00:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="FAIL" signature="signUp(java.lang.String, java.lang.String)[pri:4000, instance:day6.FifthCS@4520ebad]" name="signUp" duration-ms="2624" started-at="2019-01-03T06:00:29Z" finished-at="2019-01-03T06:00:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vaidehimunnangi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[469199862]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[UserID already exists]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: UserID already exists
+at day6.FifthCS.signUp(FifthCS.java:77)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:day6.FifthCS@4520ebad]" name="closeBrowser" is-config="true" duration-ms="635" started-at="2019-01-03T06:00:31Z" finished-at="2019-01-03T06:00:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- day6.FifthCS -->
+    </test> <!-- ValidateSignUPTest -->
+  </suite> <!-- EdurekaSuite -->
+</testng-results>
